@@ -12,6 +12,9 @@ html, body {
 }
 
 .holder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100vw;
 	height: 100vh;
 }
@@ -20,7 +23,4 @@ html, body {
 	background-color: red;
 	width: 100px;
 	height: 100px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
